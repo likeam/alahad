@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduCenter - Urdu Tuition Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+      /* Urdu font import */
+      @font-face {
+        font-family: "Jameel Noori Nastaleeq";
+        src: url("https://cdn.rawgit.com/abdullahseba/urdu-web-fonts/1.0.1/Jameel%20Noori%20Nastaleef/Jameel%20Noori%20Nastaleeq.ttf")
+          format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .urdu {
+        font-family: "Jameel Noori Nastaleeq", "Nafees", "Urdu Naskh Asiatype",
+          "Noto Nastaliq Urdu", serif;
+        line-height: 1.8;
+      }
+
+      .direction-rtl {
+        direction: rtl;
+        text-align: right;
+      }
+
+      .hero-bg {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+        background-size: cover;
+        background-position: center;
+      }
+
+      /* Simple animation classes to replace Framer Motion */
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn 0.8s ease forwards;
+      }
+
+      .slide-up {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: slideUp 0.8s ease forwards;
+      }
+
+      .scale-up {
+        transform: scale(1);
+        transition: transform 0.3s ease;
+      }
+
+      .scale-up:hover {
+        transform: scale(1.05);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .carousel-item {
+        transition: opacity 0.5s ease;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white transition-colors duration-300"
+  >
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
