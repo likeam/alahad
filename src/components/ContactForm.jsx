@@ -226,7 +226,7 @@ const ContactForm = ({ darkMode }) => {
               </div>
               <h3 className="font-semibold mb-1">Phone</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                +1 (555) 123-4567
+                +92 232 7652623
               </p>
             </div>
 
@@ -253,7 +253,7 @@ const ContactForm = ({ darkMode }) => {
               </div>
               <h3 className="font-semibold mb-1">Email</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                info@educenter.com
+                info@alhamd.com
               </p>
             </div>
 
@@ -286,7 +286,7 @@ const ContactForm = ({ darkMode }) => {
               </div>
               <h3 className="font-semibold mb-1">Address</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                123 Education St, Learning City
+                Alhamd Officers Academy Hafizabad
               </p>
             </div>
           </div>

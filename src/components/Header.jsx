@@ -12,7 +12,7 @@ const Header = ({ darkMode, setDarkMode }) => {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold text-amber-500">AL ALAHAD</h1>
+          <h1 className="text-2xl font-bold text-amber-500">ALHAMAD</h1>
         </div>
 
         {/* Mobile menu button */}
@@ -73,7 +73,7 @@ const Header = ({ darkMode, setDarkMode }) => {
           </button>
 
           <a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/9232327652623"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-4 py-2 rounded-full flex items-center space-x-2"
@@ -138,7 +138,7 @@ const Header = ({ darkMode, setDarkMode }) => {
               </button>
 
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/9232327652623"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-4 py-2 rounded-full flex items-center space-x-2"

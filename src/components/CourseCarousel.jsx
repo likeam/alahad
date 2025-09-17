@@ -5,34 +5,42 @@ import { useState } from "react";
 const courses = [
   {
     id: 1,
-    title: "Mathematics Mastery",
-    description: "Comprehensive math tutoring for all levels",
+    title: "PPSC",
+    description: "Comprehensive PPSC tutoring for all levels",
     image:
-      "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://plus.unsplash.com/premium_photo-1693035341370-d4f949bc428c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHN0dWR5fGVufDB8fDB8fHww",
     level: "All Levels",
   },
   {
     id: 2,
-    title: "Science Discovery",
-    description: "Explore the wonders of science with expert guidance",
+    title: "NTS",
+    description: "Explore the NTS of science with expert guidance",
     image:
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1592303637753-ce1e6b8a0ffb?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     level: "Beginner to Advanced",
   },
   {
     id: 3,
-    title: "Language Arts",
+    title: "OTS",
     description: "Improve reading, writing and communication skills",
     image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     level: "All Ages",
   },
   {
     id: 4,
-    title: "Coding & Robotics",
-    description: "Introduction to programming and robotics concepts",
+    title: "MPT",
+    description: "Introduction all MPT concepts",
     image:
-      "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    level: "Ages 8-16",
+  },
+  {
+    id: 5,
+    title: "FPSC",
+    description: "Improve all MPT concepts",
+    image:
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     level: "Ages 8-16",
   },
 ];

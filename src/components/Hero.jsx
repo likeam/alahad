@@ -21,7 +21,7 @@ const Hero = ({ darkMode }) => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold mb-6"
         >
-          Unlock Your <span className="text-amber-500">Potential</span>
+          Officers Academy <span className="text-amber-500">Hafizabad</span>
         </motion.h1>
 
         <motion.p
@@ -30,7 +30,7 @@ const Hero = ({ darkMode }) => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto"
         >
-          Expert tutoring for all subjects and grade levels. Achieve academic
+          Expert tutoring PPSC ,NTS, OTS,MPT,FPSC preparations. Achieve academic
           excellence with our personalized approach.
         </motion.p>
 
