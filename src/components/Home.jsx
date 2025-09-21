@@ -4,14 +4,13 @@ import Header from "./Header";
 import Hero from "./Hero";
 import CourseCarousel from "./CourseCarousel";
 import Features from "./Features";
-import ContactForm from "./ContactForm"; // Add this import
+import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    // Check system preference for dark mode
     if (
       window.matchMedia &&
       window.matchMedia("(prefers-color-scheme: dark)").matches
